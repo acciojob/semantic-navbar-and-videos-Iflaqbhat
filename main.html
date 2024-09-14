@@ -1,29 +1,50 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Random Videos</title>
+  </head>
 
-<html>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="https://www.google.com" target="_blank">Home</a></li>
+        <li><a href="https://www.flipkart.com" target="_blank">About us</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">Contact us</a></li>
+      </ul>
+    </nav>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <h1>3 Random Videos</h1>
 
-<body>
-	<nav>
-		<ul>
-			<a href="www.google.com">Home</a>
-			<a href="www.google.com">About us</a>
-			<a href="www.google.com">Contact us</a>
-		</ul>
-	</nav>
-	<h1>3 random videos</h1>
-	<video width="320" height="240" controls>
-  <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-  <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-  <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video/mp4">
-</video>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Video 1 -->
+    <video controls>
+      <source
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
 
-</body>
+    <!-- Video 2 -->
+    <video controls>
+      <source
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
 
+    <!-- Video 3 -->
+    <video controls>
+      <source
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
