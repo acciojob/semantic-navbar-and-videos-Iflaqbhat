@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Random Videos</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos Page</title>
+</head>
+<body>
 
-  <body>
-    <nav>
-      <ul>
-        <li><a href="https://www.google.com" target="_blank">Home</a></li>
-        <li><a href="https://www.flipkart.com" target="_blank">About us</a></li>
-        <li><a href="https://www.youtube.com" target="_blank">Contact us</a></li>
-      </ul>
-    </nav>
+  <!-- Semantic Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+  </nav>
 
-    <h1>3 Random Videos</h1>
+  <!-- Heading for Videos -->
+  <h2>3 Random Videos</h2>
 
-    <!-- Video 1 -->
-    <video controls>
-      <source
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-        type="video/mp4"
-      />
+  <!-- Video Section -->
+  <div>
+    <video  height="200px" controls>
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
-    <!-- Video 2 -->
-    <video controls>
-      <source
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        type="video/mp4"
-      />
+    <video height="200px" controls>
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
-    <!-- Video 3 -->
-    <video controls>
-      <source
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
-        type="video/mp4"
-      />
+    <video  height="200px" controls>
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+  </div>
 
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+</body>
 </html>
